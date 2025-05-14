@@ -59,3 +59,7 @@ test("Check if Button Component on hover state change", () => {
     fireEvent.click(customButtonComponent)
     expect(customButtonComponent).toHaveClass(ButtonState.clicked)
   })
+
+  test("This test should fail for my Github Actions Training", () => {
+    expect(2 + 2).toBe(999)
+  })
