@@ -14,7 +14,6 @@ describe("Easy Examples", () => {
     // Test #1
     test("2 + 2 = 4", () => {
         expect(2 + 2).toBe(4)
-    })
 
     // Test #2
     test("is 2+4 greater than 0", () => {
@@ -59,3 +58,4 @@ test("Check if Button Component on hover state change", () => {
     fireEvent.click(customButtonComponent)
     expect(customButtonComponent).toHaveClass(ButtonState.clicked)
   })
+})
